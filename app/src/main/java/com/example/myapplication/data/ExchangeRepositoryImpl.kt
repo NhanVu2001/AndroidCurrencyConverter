@@ -1,3 +1,4 @@
+//515fe4477d7fb665d0cb37de
 package com.example.myapplication.data
 
 import com.example.myapplication.domain.Currency
@@ -12,7 +13,7 @@ class ExchangeRepositoryImpl(
     private val tag = "ExchangeRepositoryImpl"
 
     private val baseURL = "https://v6.exchangerate-api.com/v6"
-    private val apiKEY = "515fe4477d7fb665d0cb37de"
+    private val apiKEY = ""
 
     override suspend fun convert(fromCurrency: String, toCurrency: String, amount: Double): Double {
 
